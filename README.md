@@ -5,8 +5,11 @@ For this application a semantic segmentation model was created based on the U-Ne
 To test the semantic segmentation model in a real environment, a small application was created using Unity and the Sentis library to run inference on a mobile device in real time. This work deploys the trained model inside a smartphone application, where the color images of the camera feed are used as model input to then run inference on device and display the corresponding labeled mask on the display. First the trained model was converted in a Unity compatible format (ONNX format), then the required input in form of a RGB image is acquired by the camera of the device. This image is processed by cutting out a subarea of 256 x 256 pixels, which serves as the model input. This image is then converted into a readable format, a tensor, and then fed through the network to produce class probabilities for each pixel. The model output is then futher processed, where for each pixel, the class with the highest probability is chosen and a corresponding mask showing the predicted labels is created.
 
 
-![Image 1](./Images/app_img.jpg) ![Image 2](./Images/app_transparent.jpg) ![Image 3](./Images/app_mask.jpg)
-
+<p align="center">
+  <img src="./Images/app_img.jpg" alt="Image 1" width="200"/>
+  <img src="./Images/app_transparent.jpg" alt="Image 2" width="200"/>
+  <img src="./Images/app_mask.jpg" alt="Image 3" width="200"/>
+</p>
 
 ## Setup
 
