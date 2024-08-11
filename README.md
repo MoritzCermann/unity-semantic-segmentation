@@ -11,9 +11,9 @@ To test the semantic segmentation model in a real environment, a small applicati
   <img src="./Images/app_mask.jpg" alt="Image 3" width="200"/>
 </p>
 <p align="center">
-  <b>Figure 1:</b> a) Original Image --  
-  <b>Figure 2:</b> (b) Predicted Mask --  
-  <b>Figure 3:</b> (c) Predicted Mask
+  <b>Figure 1:</b> Original Image ----  
+  <b>Figure 2:</b> Predicted Mask ---- 
+  <b>Figure 3:</b> Predicted Mask
 </p>
 
 ## Results and Conclusion
